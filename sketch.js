@@ -27,7 +27,7 @@ function draw() {
   fill(0);
   ellipse(50, 50, 50, 70);
   textSize(20);
-  text("↑ 긴장을 주고 싶다면 ", 40, 110);
+  text("↑ Click here ", 40, 110);
 
   if (mouseX < 100 && mouseY < 120){
     if(mouseIsPressed){  
